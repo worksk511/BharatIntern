@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;  /* Dark background color */
+    color: white;  /* Light text color */
+  }
+  
+  header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header img {
+    width: 150px;  /* Adjust logo image size */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .hero {
+    background-image: url("hero-banner.jpg");  /* Replace with your banner image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background-color: #e60000;  /* Red button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .categories h2 {
+    font-size: 1.5em;
+  }
+  
+  .categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .categories li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .categories a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .categories a:hover {
+    color: #e60000;
+  }
+  
+  .popular {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .popular img {
+    width: 100%;
+    height: auto;
+  }
+  
