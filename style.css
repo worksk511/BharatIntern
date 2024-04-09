@@ -30,11 +30,11 @@ body {
   
   nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
   }
   
   nav a:hover {
-    color: #333;
+    color: #333333;
   }
   
   main {
